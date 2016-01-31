@@ -128,7 +128,7 @@ Class GIFEncoder {
 	::	GIFEncoder...
 	::
 	*/
-	function GIFEncoder	(
+	function __construct /* GIFEncoder 错误的名字 */	(
 							$GIF_src, $GIF_dly, $GIF_lop, $GIF_dis,
 							$GIF_red, $GIF_grn, $GIF_blu, $GIF_mod
 						) {
@@ -357,7 +357,7 @@ Class GIFDecoder {
 	::	GIFDecoder ( $GIF_pointer )
 	::
 	*/
-	function GIFDecoder ( $GIF_pointer ) {
+	function __construct( $GIF_pointer ) {
 		$this->GIF_stream = $GIF_pointer;
 
 		GIFDecoder::GIFGetByte ( 6 );	// GIF89a
