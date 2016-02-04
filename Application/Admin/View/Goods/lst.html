@@ -1,24 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>商品列表</title>
-<meta name="robots" content="noindex, nofollow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
-<link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
-
-<link href="__PUBLIC__/datepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" language="javascript" src="__PUBLIC__/datepicker/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/jquery-ui-1.9.2.custom.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datepicker/datepicker_zh-cn.js"></script>
-</head>
-<body>
-<h1>
-    <span class="action-span"><a href="<?php echo U('add'); ?>">添加商品</a></span>
-    <span class="action-span1"><a href="#">管理中心</a></span>
-    <span id="search_id" class="action-span1"> - 商品列表 </span>
-    <div style="clear:both"></div>
-</h1>
+<Layout name = "Index/header_footer"/>
 <div class="form-div">
 <form action="__SELF__" name="searchForm">
 <input type="hidden" name="p" value="1" />
@@ -80,7 +60,6 @@
         </table>
     </div>
 </form>
-<include file="Admin@Index:footer" />
 <script>
 $("#start_addtime").datepicker({ dateFormat: "yy-mm-dd" });
 $("#end_addtime").datepicker({ dateFormat: "yy-mm-dd" });

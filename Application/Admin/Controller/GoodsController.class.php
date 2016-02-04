@@ -3,6 +3,11 @@ namespace Admin\Controller;
 
 class GoodsController extends IndexController
 {
+	public function test(){
+		$this->setPage('商品列表', '添加商品', U(MODULE_NAME.'/'.CONTROLLER_NAME.'/add'));
+		$this->display();
+	}
+
 	public function add()
 	{
 		// 2.处理表单
@@ -20,17 +25,21 @@ class GoodsController extends IndexController
 				if($model->add())
 				{
 					// 6. 提示信息
-					$this->success('操作成功！', U('lst'), TRUE);
+					$this->success('操作成功！', U('lst'));
+					// $this->success('操作成功！', U('lst'), true);
 					// 7.停止执行后面的代码
 					exit;
 				}
 			}
+					
 			// 8. 如果上面失败，获取失败的原因
 			$error = $model->getError();
 			// 9. 显示错误信息，并跳回到上一个页面
-			$this->error($error, '', TRUE);
+			$this->error($error);
+			// $this->error($error, '', true);
 		}
 		// 1.显示表单
+		$this->setPage('添加商品', '商品列表', U(MODULE_NAME.'/'.CONTROLLER_NAME.'/lst'));
 		$this->display();
 	}
 
@@ -82,7 +91,14 @@ class GoodsController extends IndexController
 			'data' => $data['data'],
 			'page' => $data['page'],
 		));
+		$this->setPage('商品列表', '添加商品', U(MODULE_NAME.'/'.CONTROLLER_NAME.'/add'));
 		$this->display();
+	}
+
+	private function setPage($_page_title = '', $_page_btn_name = '', $_page_btn_link = '#'){
+		$this->assign('_page_title', $_page_title);
+		$this->assign('_page_btn_name', $_page_btn_name);
+		$this->assign('_page_btn_link', $_page_btn_link);
 	}
 }
 

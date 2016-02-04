@@ -1,17 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="/www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="__PUBLIC__/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
-<link href="__PUBLIC__/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
-
-<script type="text/javascript" language="javascript" src="__PUBLIC__/datepicker/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
-<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
-</head>
-<body>
-<form name="main_form" method="POST" action="__SELF__" enctype="multipart/form-data">
+<Layout name = "Index/header_footer"/>
+<form name="main_form" method="post" action="__SELF__" enctype="multipart/form-data">
 	商品名称:<input type="text" name="goods_name" /><br />
 	商品价格:<input type="text" name="price" /><br />
 	商品logo:<input type="file" name="logo" /><br />
@@ -23,7 +11,6 @@
 	<input type="submit" value="提交" />
 	<a href="<?php echo U('lst'); ?>">列表</a>
 </form>
-<include file="Admin@Index:footer" />
 </body>
 </html>
 <script>
@@ -32,26 +19,25 @@ UE.getEditor('goods_desc', {
 	"initialFrameHeight" : 350,     // 高
 	"maximumWords" : 50000             // 最可以输入的字符数
 });
-//使用ajax提交表单
-$("form[name='main_form']").submit(function (){
-	$.ajax({
-		type : "POST",
-		url : "__SELF__",
-		data : $(this).serialize(), //收集表单中的数据
-		dataType : "json",  //标记服务器返回的是JSON数据
-		success : function(data){   //ajax执行完之后的回调函数
-			//判断添加是否成功
-			alert(data.url);
-			if(data.status == 1){
-				alert(data.info);
-				locate.href = data.url;
-			}else{
-				alert(data.info);
-			}
-
-		}
-	});
-	//阻止表单提交
-	return false;
-});
+// 使用ajax提交表单
+// $("form[name='main_form']").submit(function (){
+// 	$.ajax({
+// 		type : "POST",
+// 		url : "__SELF__",
+// 		data : $(this).serialize(), //收集表单中的数据
+// 		dataType : "json",  //标记服务器返回的是JSON数据
+// 		success : function(data){   //ajax执行完之后的回调函数
+// 			//判断添加是否成功
+// 			alert(data);
+// 			if(data.status == 1){
+// 				alert(data.info);
+// 				locate.href = data.url;
+// 			}else{
+// 				alert(data.info);
+// 			}
+// 		}
+// 	});
+// 	//阻止表单提交
+// 	return false;
+// });
 </script>

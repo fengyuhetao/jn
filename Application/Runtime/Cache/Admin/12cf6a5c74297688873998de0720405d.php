@@ -20,7 +20,7 @@
     <div style="clear:both"></div>
 </h1>
 <div class="form-div">
-<form action="/jn/index.php/Admin/Goods/lst.html" name="searchForm">
+<form action="/jn/index.php/Admin/Goods/lst/p/1.html" name="searchForm">
 <input type="hidden" name="p" value="1" />
 <p>商品名称：<input type="text" name="goods_name" value="<?php echo I('get.goods_name'); ?>" /></p>
 
@@ -80,10 +80,7 @@
         </table>
     </div>
 </form>
-<div id="footer">
-共执行 3 个查询，用时 0.021251 秒，Gzip 已禁用，内存占用 2.194 MB<br />
-版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。
-</div>
+
 <script>
 $("#start_addtime").datepicker({ dateFormat: "yy-mm-dd" });
 $("#end_addtime").datepicker({ dateFormat: "yy-mm-dd" });
