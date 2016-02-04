@@ -11,16 +11,23 @@
 <script type="text/javascript" language="javascript" src="/jn/Public/datepicker/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/jn/Public/datepicker/jquery-ui-1.9.2.custom.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/jn/Public/datepicker/datepicker_zh-cn.js"></script>
+<script type="text/javascript" language="javascript" src="/jn/Public/datepicker/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/jn/Public/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/jn/Public/ueditor/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="/jn/Public/ueditor/lang/zh-cn/zh-cn.js"></script>
 </head>
 <body>
 <h1>
-    <span class="action-span"><a href="<?php echo U('add'); ?>">添加商品</a></span>
+    <span class="action-span"><a href="<?php echo $_page_btn_link;?>"><?php echo ($_page_btn_name); ?></a></span>
     <span class="action-span1"><a href="#">管理中心</a></span>
-    <span id="search_id" class="action-span1"> - 商品列表 </span>
+    <span id="search_id" class="action-span1"> -<?php echo ($_page_title); ?> </span>
     <div style="clear:both"></div>
 </h1>
+
+<!--页面中的内容-->
+
 <div class="form-div">
-<form action="/jn/index.php/Admin/Goods/lst/p/1.html" name="searchForm">
+<form action="/jn/index.php/Admin/Goods/lst/p/2.html" name="searchForm">
 <input type="hidden" name="p" value="1" />
 <p>商品名称：<input type="text" name="goods_name" value="<?php echo I('get.goods_name'); ?>" /></p>
 
@@ -80,8 +87,12 @@
         </table>
     </div>
 </form>
-
 <script>
 $("#start_addtime").datepicker({ dateFormat: "yy-mm-dd" });
 $("#end_addtime").datepicker({ dateFormat: "yy-mm-dd" });
 </script>
+
+<div id="footer">
+共执行 3 个查询，用时 0.021251 秒，Gzip 已禁用，内存占用 2.194 MB<br />
+版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。
+</div>
