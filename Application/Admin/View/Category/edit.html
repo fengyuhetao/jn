@@ -1,0 +1,132 @@
+<layout name="Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__" enctype="multipart/form-data" >
+    	<input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
+        <table cellspacing="1" cellpadding="3" width="100%">
+			<tr>
+				<td class="label">上级权限：</td>
+				<td>
+					<select name="parent_id">
+						<option value="0">顶级权限</option>
+						<?php foreach ($parentData as $k => $v): ?> 
+						<?php if($v['id'] == $data['id'] || in_array($v['id'], $children)) continue ; ?> 
+						<option <?php if($v['id'] == $data['parent_id']): ?>selected="selected"<?php endif; ?> value="<?php echo $v['id']; ?>"><?php echo str_repeat('-', 8*$v['level']).$v['cate_name']; ?></option>
+						<?php endforeach; ?>					</select>
+				</td>
+			</tr>
+            <tr>
+                <td class="label">分类名称：</td>
+                <td>
+                    <input type="text" name="cate_name" value="<?php echo $data['cate_name']; ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">筛选属性：</td>
+                <td>
+                <ul style="list-style: none">
+                <?php if ($searchAttrData): ?>
+                    <?php foreach ($searchAttrData as $k1 => $v1): 
+                        if($k1 == 0)
+                            $opt = '[+]';
+                        else
+                            $opt = '[-]';
+                    ?>
+                    <li>
+                        <a href="javascript:void(0);" onclick="addNew(this);">{$opt}</a>
+                        <select name="type_id[]" attr_id="{$v1.id}">
+                            <option value="">选择类型</option> 
+                            <?php foreach ($typeData as $k => $v): 
+                                if($v['id'] == $v1['type_id'])
+                                    $select = 'selected="selected"';
+                                else
+                                    $select = '';
+                            ?>
+                                <option value="{$v.id}" <?php echo $select; ?>>{$v.type_name}</option>
+                            <?php endforeach ?>
+                        </select>
+                        <select name="attr_id[]">
+                            <option value="">选择属性</option>
+                        </select>
+                    </li>
+                    <?php endforeach ?>
+                <?php else: ?>
+                    <li>
+                        <a href="javascript:void(0);" onclick="addNew(this);">[+]</a>
+                        <select name="type_id[]">
+                            <option value="">选择类型</option> 
+                            <?php foreach ($typeData as $k => $v): 
+                                if($v['id'] == $v1['type_id'])
+                                    $select = 'selected="selected"';
+                                else
+                                    $select = '';
+                            ?>
+                                <option value="{$v.id}" <?php echo $select; ?>>{$v.type_name}</option>
+                            <?php endforeach ?>
+                        </select>
+                        <select name="attr_id[]">
+                            <option value="">选择属性</option>
+                        </select>
+                    </li>
+                <?php endif ?>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="99" align="center">
+                    <input type="submit" class="button" value=" 确定 " />
+                    <input type="reset" class="button" value=" 重置 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script>
+$("select[name='type_id[]']").change(function(){
+    var _this=$(this);
+    var typeId = $(this).val();
+    var opt = "<option value=''>选择属性</option>";
+    //如果选择了类型
+    if(typeId != "")
+    {
+        var attrId = _this.attr('attr_id');
+        $.ajax({
+            type : "GET",
+            url : "<?php echo U('Admin/Goods/ajaxGetAttr', '', false);?>/type_id/"+typeId,
+            dataType : "json",
+            success : function(data)
+            {
+                $(data).each(function(k, v) {
+                    // 判断哪个属性应该是选中的状态
+                    if(v.id == attrId)
+                        var select = 'selected="selected"';
+                    else
+                        var select = ''; 
+                    opt += "<option value='"+v.id+"'"+select+">"+v.attr_name+"</option>";
+                });
+                //把这个下拉框后面的一个修改
+                _this.next("select").html(opt);
+            }
+        });
+    }
+    else
+    {
+        _this.next("select").html(opt);
+    }
+});
+
+function addNew(a)
+{
+    if($(a).text() == '[-]')
+        $(a).parent().remove();
+    else
+    {
+        var li = $(a).parent();
+        var newLi = li.clone(true);
+        newLi.find("a").text("[-]");
+        li.after(newLi);
+    }   
+}
+
+//直接触发ajax事件
+$("select[name='type_id[]']").trigger("change");
+</script>

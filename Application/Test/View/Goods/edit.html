@@ -1,0 +1,61 @@
+<layout name="../../Admin/View/Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__" enctype="multipart/form-data" >
+    	<input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
+		<input type="hidden" name="old_logo" value="<?php echo $data['logo']; ?>" />
+		<input type="hidden" name="old_sm_logo" value="<?php echo $data['sm_logo']; ?>" />
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">商品名称：</td>
+                <td>
+                    <input  type="text" name="goods_name" value="<?php echo $data['goods_name']; ?>" />
+                </td>
+            </tr>
+            <img src="__PUBLIC__/Uploads/<?php echo $info['sm_logo'];?>" alt="无图片"/>
+            <tr>
+                <td class="label">商品logo：</td>
+                <td>
+                	<input type="file" name="logo" /><br /> 
+                	<?php showImage($data['logo'], 100, 100); ?>                 
+                </td>
+            </tr>
+            <tr>
+                <td class="label">价格：</td>
+                <td>
+                    <input  type="text" name="price" value="<?php echo $data['price']; ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否上架：</td>
+                <td>
+                    <input  type="text" name="is_on_sale" value="<?php echo $data['is_on_sale']; ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">是否已删除：</td>
+                <td>
+                    <input  type="text" name="is_delete" value="<?php echo $data['is_delete']; ?>" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">商品描述：</td>
+                <td>
+                	<textarea id="goods_desc" name="goods_desc"><?php echo $data['goods_desc']; ?></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="99" align="center">
+                    <input type="submit" class="button" value=" 确定 " />
+                    <input type="reset" class="button" value=" 重置 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script>
+UE.getEditor('goods_desc', {
+	"initialFrameWidth" : "100%",   // 宽
+	"initialFrameHeight" : 80,      // 高
+	"maximumWords" : 10000            // 最大可以输入的字符数量
+});
+</script>

@@ -1,0 +1,1059 @@
+[ 2016-03-16T12:09:07+08:00 ] ::1 /jn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024694s ]
+
+[ 2016-03-16T12:09:07+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000986s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.216317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026242s ]
+
+[ 2016-03-16T12:09:08+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005442s ]
+
+[ 2016-03-16T12:09:14+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003484s ]
+
+[ 2016-03-16T12:09:16+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002691s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.031049s ]
+SQL: SELECT * FROM `jn_admin` WHERE ( `username` = 'root' ) LIMIT 1   [ RunTime:0.000857s ]
+
+[ 2016-03-16T12:09:17+08:00 ] ::1 /jn/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002240s ]
+
+[ 2016-03-16T12:09:17+08:00 ] ::1 /jn/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003985s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2016-03-16T12:09:17+08:00 ] ::1 /jn/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000650s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+SQL: select * from jn_privilege [ RunTime:0.001811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-03-16T12:09:18+08:00 ] ::1 /jn/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/footer.html): failed to open stream: No such file or directory D:\wamp\www\jn\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005371s ]
+
+[ 2016-03-16T12:09:22+08:00 ] ::1 /jn/index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.091123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM jn_goods a WHERE ( `is_delete` = 0 ) LIMIT 1   [ RunTime:0.001218s ]
+SQL: SELECT a.*,IFNULL(SUM(b.goods_number),0) gn FROM jn_goods a left join jn_goods_number b on a.id=b.goods_id  WHERE ( `is_delete` = 0 ) GROUP BY a.id ORDER BY id DESC LIMIT 0,20   [ RunTime:0.033031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004180s ]
+
+[ 2016-03-16T12:09:25+08:00 ] ::1 /jn/index.php/Admin/Goods/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.061924s ]
+SQL: SELECT * FROM `jn_goods` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `jn_goods_cate` [ RunTime:0.021339s ]
+SQL: SELECT * FROM `jn_goods_cate` WHERE ( `goods_id` = '3' )  [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `jn_type` [ RunTime:0.019916s ]
+SQL: SELECT * FROM `jn_type`  [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.023136s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.020294s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `jn_member_level` [ RunTime:0.022355s ]
+SQL: SELECT * FROM `jn_member_level`  [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `jn_member_price` [ RunTime:0.019352s ]
+SQL: SELECT `level_id`,`price` FROM `jn_member_price` WHERE ( `goods_id` = '3' )  [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `jn_goods_pics` [ RunTime:0.023672s ]
+SQL: SELECT * FROM `jn_goods_pics` WHERE ( `goods_id` = '3' )  [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.022407s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM jn_goods_attr a left join jn_attribute b on a.attr_id = b.id  WHERE ( a.goods_id = '3' ) ORDER BY a.attr_id  [ RunTime:0.000895s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Admin\Controller\GoodsController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `jn_attribute` [ RunTime:0.024374s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `jn_attribute` WHERE ( `type_id` = '0' ) AND ( `id` NOT IN () )  [ RunTime:0.000459s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `jn_attribute` WHERE ( `type_id` = '0' ) AND ( `id` NOT IN () ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001815s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 238 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.362692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.363156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002494s ]
+
+[ 2016-03-16T12:09:45+08:00 ] ::1 /jn/index.php/Admin/Goods/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.064627s ]
+NOTIC: [8] Undefined index: is_delete D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1040 行.
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.020979s ]
+SQL: DELETE FROM `jn_goods_attr` WHERE ( `goods_id` = 3 ) [ RunTime:0.001031s ]
+SQL: UPDATE `jn_goods` SET `goods_name`='华硕笔记本2016',`cate_id`=8,`brand_id`=2,`market_price`='0.00',`shop_price`='800.00',`jifen`=0,`jyz`=0,`jifen_price`=0,`is_promote`=1,`promote_price`='23.00',`promote_start_time`=1456761600,`promote_end_time`=1459353600,`is_hot`=0,`is_new`=1,`is_best`=1,`seo_keyword`='',`seo_description`='',`sort_num`=50,`is_on_sale`=1,`goods_desc`='',`type_id`=0 WHERE ( `id` = 3 ) [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `jn_goods_cate` [ RunTime:0.014996s ]
+SQL: DELETE FROM `jn_goods_cate` WHERE ( `goods_id` = 3 ) [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `jn_member_price` [ RunTime:0.015611s ]
+SQL: DELETE FROM `jn_member_price` WHERE ( `goods_id` = 3 ) [ RunTime:0.001145s ]
+SQL: INSERT INTO `jn_member_price` (`goods_id`,`level_id`,`price`) VALUES (3,1,'0.00') [ RunTime:0.000637s ]
+SQL: INSERT INTO `jn_member_price` (`goods_id`,`level_id`,`price`) VALUES (3,2,'0.00') [ RunTime:0.000563s ]
+SQL: INSERT INTO `jn_member_price` (`goods_id`,`level_id`,`price`) VALUES (3,3,'0.00') [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `jn_goods_pics` [ RunTime:0.016486s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\jn\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Undefined index: ok D:\wamp\www\jn\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\jn\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Undefined index: ok D:\wamp\www\jn\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\jn\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Undefined index: ok D:\wamp\www\jn\Application\Admin\Model\GoodsModel.class.php 第 373 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.235481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004584s ]
+
+[ 2016-03-16T12:09:46+08:00 ] ::1 /jn/index.php/Admin/Goods/lst/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.064180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM jn_goods a WHERE ( `is_delete` = 0 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT a.*,IFNULL(SUM(b.goods_number),0) gn FROM jn_goods a left join jn_goods_number b on a.id=b.goods_id  WHERE ( `is_delete` = 0 ) GROUP BY a.id ORDER BY id DESC LIMIT 0,20   [ RunTime:0.021688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.391187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.391662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002763s ]
+
+[ 2016-03-16T12:09:55+08:00 ] ::1 /jn/index.php/Admin/Goods/edit/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.021826s ]
+SQL: SELECT * FROM `jn_goods` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `jn_goods_cate` [ RunTime:0.015007s ]
+SQL: SELECT * FROM `jn_goods_cate` WHERE ( `goods_id` = '3' )  [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `jn_type` [ RunTime:0.014959s ]
+SQL: SELECT * FROM `jn_type`  [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.016121s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.017449s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `jn_member_level` [ RunTime:0.016372s ]
+SQL: SELECT * FROM `jn_member_level`  [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `jn_member_price` [ RunTime:0.015282s ]
+SQL: SELECT `level_id`,`price` FROM `jn_member_price` WHERE ( `goods_id` = '3' )  [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `jn_goods_pics` [ RunTime:0.015720s ]
+SQL: SELECT * FROM `jn_goods_pics` WHERE ( `goods_id` = '3' )  [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.017349s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type,b.attr_option_values FROM jn_goods_attr a left join jn_attribute b on a.attr_id = b.id  WHERE ( a.goods_id = '3' ) ORDER BY a.attr_id  [ RunTime:0.000743s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Admin\Controller\GoodsController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `jn_attribute` [ RunTime:0.015406s ]
+SQL: SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `jn_attribute` WHERE ( `type_id` = '0' ) AND ( `id` NOT IN () )  [ RunTime:0.000382s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT id attr_id,`attr_name`,`attr_type`,`attr_option_values` FROM `jn_attribute` WHERE ( `type_id` = '0' ) AND ( `id` NOT IN () ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 238 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Admin\608b0c961c661bd6d45820311b4b75a7.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.316690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.317149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2016-03-16T12:10:04+08:00 ] ::1 /jn/index.php/Admin/Goods/edit/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.071396s ]
+NOTIC: [8] Undefined index: is_delete D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1040 行.
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.016497s ]
+SQL: DELETE FROM `jn_goods_attr` WHERE ( `goods_id` = 3 ) [ RunTime:0.000572s ]
+SQL: UPDATE `jn_goods` SET `goods_name`='华硕笔记本2016',`cate_id`=8,`brand_id`=2,`market_price`='0.00',`shop_price`='800.00',`jifen`=0,`jyz`=0,`jifen_price`=0,`is_promote`=1,`promote_price`='23.00',`promote_start_time`=1456761600,`promote_end_time`=1459353600,`is_hot`=0,`is_new`=1,`is_best`=1,`seo_keyword`='',`seo_description`='',`sort_num`=50,`is_on_sale`=1,`goods_desc`='',`type_id`=0 WHERE ( `id` = 3 ) [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `jn_goods_cate` [ RunTime:0.015567s ]
+SQL: DELETE FROM `jn_goods_cate` WHERE ( `goods_id` = 3 ) [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `jn_member_price` [ RunTime:0.014358s ]
+SQL: DELETE FROM `jn_member_price` WHERE ( `goods_id` = 3 ) [ RunTime:0.000698s ]
+SQL: INSERT INTO `jn_member_price` (`goods_id`,`level_id`,`price`) VALUES (3,1,'0.00') [ RunTime:0.000651s ]
+SQL: INSERT INTO `jn_member_price` (`goods_id`,`level_id`,`price`) VALUES (3,2,'0.00') [ RunTime:0.000467s ]
+SQL: INSERT INTO `jn_member_price` (`goods_id`,`level_id`,`price`) VALUES (3,3,'0.00') [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `jn_goods_pics` [ RunTime:0.016826s ]
+
+[ 2016-03-16T17:58:25+08:00 ] ::1 /jn/index.php/Admin/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007174s ]
+ERR: 无法加载控制器:Gii
+
+[ 2016-03-16T17:58:43+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002600s ]
+
+[ 2016-03-16T17:59:02+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003484s ]
+
+[ 2016-03-16T17:59:09+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003161s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.003059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-03-16T18:01:04+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.002333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-03-16T18:04:13+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.007319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045671s ]
+
+[ 2016-03-16T18:04:48+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001856s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002781s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.005049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004756s ]
+
+[ 2016-03-16T18:04:52+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2016-03-16T18:04:56+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.002884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004152s ]
+
+[ 2016-03-16T18:05:49+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002695s ]
+
+[ 2016-03-16T18:05:53+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005231s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.002256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+
+[ 2016-03-16T18:06:47+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007367s ]
+
+[ 2016-03-16T18:06:49+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003539s ]
+SQL: show table status WHERE Name LIKE 'em_admin' [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-03-16T18:06:54+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002478s ]
+
+[ 2016-03-16T18:06:55+08:00 ] ::1 /jn/index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005216s ]
+
+[ 2016-03-16T22:28:04+08:00 ] ::1 /jn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008031s ]
+
+[ 2016-03-16T22:28:04+08:00 ] ::1 /jn/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003215s ]
+
+[ 2016-03-16T22:28:04+08:00 ] ::1 /jn/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+SQL: select * from jn_privilege [ RunTime:0.001988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000776s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2016-03-16T22:28:05+08:00 ] ::1 /jn/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/footer.html): failed to open stream: No such file or directory D:\wamp\www\jn\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001912s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004614s ]
+
+[ 2016-03-16T22:28:08+08:00 ] ::1 /jn/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+
+[ 2016-03-16T22:28:08+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002131s ]
+
+[ 2016-03-16T22:28:08+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003689s ]
+
+[ 2016-03-16T22:28:13+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004388s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.118892s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1107 行.
+NOTIC: [8] Undefined index: is_use D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1040 行.
+SQL: SELECT * FROM `jn_admin` WHERE ( `username` = 'root' ) LIMIT 1   [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+
+[ 2016-03-16T22:28:19+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.065841s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+
+[ 2016-03-16T22:30:30+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.027136s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+
+[ 2016-03-16T23:26:55+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004420s ]
+
+[ 2016-03-16T23:26:55+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2016-03-16T23:27:00+08:00 ] ::1 /jn/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006242s ]
+
+[ 2016-03-16T23:27:00+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002511s ]
+
+[ 2016-03-16T23:27:01+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004452s ]
+
+[ 2016-03-16T23:27:09+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003478s ]
+
+[ 2016-03-16T23:27:11+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.028760s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\jn\ThinkPHP\Library\Think\Model.class.php 第 1107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+
+[ 2016-03-16T23:28:14+08:00 ] ::1 /jn/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002573s ]
+
+[ 2016-03-16T23:28:17+08:00 ] ::1 /jn/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.086114s ]
+SQL: SELECT * FROM `jn_admin` WHERE ( `username` = 'root' ) LIMIT 1   [ RunTime:0.000763s ]
+
+[ 2016-03-16T23:28:17+08:00 ] ::1 /jn/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2016-03-16T23:28:17+08:00 ] ::1 /jn/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003800s ]
+
+[ 2016-03-16T23:28:18+08:00 ] ::1 /jn/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008168s ]
+SQL: select * from jn_privilege [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003212s ]
+
+[ 2016-03-16T23:28:18+08:00 ] ::1 /jn/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/footer.html): failed to open stream: No such file or directory D:\wamp\www\jn\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003879s ]
+
+[ 2016-03-16T23:28:24+08:00 ] ::1 /jn/index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.036546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM jn_goods a WHERE ( `is_delete` = 0 ) LIMIT 1   [ RunTime:0.000966s ]
+SQL: SELECT a.*,IFNULL(SUM(b.goods_number),0) gn FROM jn_goods a left join jn_goods_number b on a.id=b.goods_id  WHERE ( `is_delete` = 0 ) GROUP BY a.id ORDER BY id DESC LIMIT 0,20   [ RunTime:0.028671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001913s ]
+
+[ 2016-03-16T23:28:25+08:00 ] ::1 /jn/index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.185502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM jn_goods a WHERE ( `is_delete` = 0 ) LIMIT 1   [ RunTime:0.000914s ]
+SQL: SELECT a.*,IFNULL(SUM(b.goods_number),0) gn FROM jn_goods a left join jn_goods_number b on a.id=b.goods_id  WHERE ( `is_delete` = 0 ) GROUP BY a.id ORDER BY id DESC LIMIT 0,20   [ RunTime:0.026672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004483s ]
+
+[ 2016-03-16T23:29:19+08:00 ] ::1 /jn/index.php/Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005557s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.037065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM jn_goods a WHERE ( `is_delete` = 0 ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT a.*,IFNULL(SUM(b.goods_number),0) gn FROM jn_goods a left join jn_goods_number b on a.id=b.goods_id  WHERE ( `is_delete` = 0 ) GROUP BY a.id ORDER BY id DESC LIMIT 0,1   [ RunTime:0.023744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000964s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001940s ]
+

@@ -1,0 +1,88 @@
+<layout name="Index/header_footer" />
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__" enctype="multipart/form-data">
+        <table cellspacing="1" cellpadding="3" width="100%">
+			<tr>
+				<td class="label">上级权限：</td>
+				<td>
+					<select name="parent_id">
+						<option value="0">顶级权限</option>
+						<?php foreach ($parentData as $k => $v): ?>						<option value="<?php echo $v['id']; ?>"><?php echo str_repeat('-', 8*$v['level']).$v['cate_name']; ?></option>
+						<?php endforeach; ?>					</select>
+				</td>
+			</tr>
+            <tr>
+                <td class="label">分类名称：</td>
+                <td>
+                    <input  type="text" name="cate_name" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="label">筛选属性：</td>
+                <td>
+                <ul style="list-style: none">
+                    <li>
+                        <a href="javascript:void(0);" onclick="addNew(this);">[+]</a>
+                        <select name="type_id[]">
+                            <option value="">选择类型</option> 
+                            <?php foreach ($typeData as $k => $v): ?>
+                                <option value="{$v.id}">{$v.type_name}</option>
+                            <?php endforeach ?>
+                        </select>
+                        <select name="attr_id[]">
+                            <option value="">选择属性</option>
+                        </select>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="99" align="center">
+                    <input type="submit" class="button" value=" 确定 " />
+                    <input type="reset" class="button" value=" 重置 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script>
+$("select[name='type_id[]']").change(function(){
+    var _this = $(this);
+    var typeId = $(this).val();
+     var opt = "<option value=''>请选择属性</option>";
+    //如果选择了类型
+    if(typeId != "")
+    {
+        $.ajax({ 
+            type : "GET",
+            url : "<?php echo U('Admin/Goods/ajaxGetAttr', '', false);?>/type_id/"+typeId,
+            dataType : "json",
+            success : function(data)
+            {
+                $(data).each(function(k, v) {
+                    opt += "<option value='"+v.id+"'>"+v.attr_name+"</option>";
+                });
+                _this.next("select").html(opt);
+            }
+        });
+    }
+    else
+    {
+        _this.next("select").html(opt);
+    }
+});
+
+function addNew(a)
+{
+    if($(a).text() == '[-]')
+        $(a).parent().remove();
+    else
+    {
+        var li = $(a).parent();
+        var newLi = li.clone(); //深度克隆，把标签和事件也克隆过来
+        newLi.find("a").text("[-]");
+        li.after(newLi);
+    }   
+}
+
+</script>

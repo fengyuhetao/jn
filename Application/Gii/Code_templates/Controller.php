@@ -90,4 +90,10 @@ class <?php echo $tpName; ?>Controller extends IndexController
 		$this->setPageBtn('<?php echo $config['tableCnName']; ?>列表', '添加<?php echo $config['tableCnName']; ?>', U('add'));
     	$this->display();
     }
+
+    public function setPageBtn($_page_title = '', $_page_btn_name = '', $_page_btn_link = '#'){
+        $this->assign('_page_title', $_page_title);
+        $this->assign('_page_btn_name', $_page_btn_name);
+        $this->assign('_page_btn_link', $_page_btn_link);
+    }
 }

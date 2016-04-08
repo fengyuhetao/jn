@@ -67,6 +67,47 @@ class IndexController extends Controller
 			include(GII_TEMPLATE_PATH.'edit.html');
 			$str = ob_get_clean();
 			file_put_contents($v1Dir.'/edit.html', $str);
+			//添加权限
+			$topPriName = $config['topPriName'];
+			//取出顶级权限的ID
+			$priModel = M('Privilege');
+			$topID = $priModel->field('id')->where(array('pri_name' => array('eq', $topPriName)))->find();
+			$has = $priModel->field('id')->where(array('pri_name' => array('eq', $config['tableCnName'] . '列表')))->count();
+			if($has == 0){
+				$lstID = $priModel->add(array(
+				'pri_name' => $config['tableCnName'] . '列表',
+				'parent_id' => $topID['id'],
+				'module_name' => $config['moduleName'],
+				'controller_name' => $tpName,
+				'action_name' => 'lst',
+				));
+
+				$priModel->add(array(
+					'pri_name' => $config['tableCnName'] . '添加',
+					'parent_id' => $lstID,
+					'module_name' => $config['moduleName'],
+					'controller_name' => $tpName,
+					'action_name' => 'add',
+					));
+
+				$priModel->add(array(
+					'pri_name' => $config['tableCnName'] . '编辑',
+					'parent_id' => $lstID,
+					'module_name' => $config['moduleName'],
+					'controller_name' => $tpName,
+					'action_name' => 'edit',
+					));
+
+				$priModel->add(array(
+					'pri_name' => $config['tableCnName'] . '删除',
+					'parent_id' => $lstID,
+					'module_name' => $config['moduleName'],
+					'controller_name' => $tpName,
+					'action_name' => 'delete',
+					));
+			}
+			
+
 			$this->success('代码生成成功！');
 			exit;
 		}

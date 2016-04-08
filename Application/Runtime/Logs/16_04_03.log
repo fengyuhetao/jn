@@ -1,0 +1,220 @@
+[ 2016-04-03T16:16:34+08:00 ] ::1 /jn/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000320s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.042865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043323s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.106106s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `jn_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1459671393 ) AND ( `promote_end_time` >= 1459671393 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.027532s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `jn_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001559s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `jn_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001271s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `jn_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.003775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.096502s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.000719s ]
+SQL: SELECT `id`,`cate_name` FROM `jn_category` WHERE ( parent_id = 0 )  [ RunTime:0.000602s ]
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 1 )  [ RunTime:0.000520s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Admin\Model\CategoryModel.class.php 第 134 行.
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 2 )  [ RunTime:0.000512s ]
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 3 )  [ RunTime:0.000625s ]
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 8 )  [ RunTime:0.000589s ]
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 5 )  [ RunTime:0.002685s ]
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 7 )  [ RunTime:0.000771s ]
+SQL: SELECT * FROM `jn_category` WHERE ( parent_id = 9 )  [ RunTime:0.000618s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Admin\Model\CategoryModel.class.php 第 134 行.
+NOTIC: [8] Undefined index: children D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined index: children D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined index: children D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined index: children D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.073087s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.073520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028768s ]
+
+[ 2016-04-03T16:16:35+08:00 ] ::1 /jn/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002641s ]
+
+[ 2016-04-03T16:16:36+08:00 ] ::1 /jn/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003112s ]
+
+[ 2016-04-03T16:16:46+08:00 ] ::1 /jn/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004457s ]
+
+[ 2016-04-03T16:16:47+08:00 ] ::1 /jn/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005337s ]
+
+[ 2016-04-03T16:16:47+08:00 ] ::1 /jn/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2016-04-03T16:17:05+08:00 ] ::1 /jn/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+SQL: SHOW COLUMNS FROM `jn_member` [ RunTime:0.222282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+
+[ 2016-04-03T16:17:21+08:00 ] ::1 /jn/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005675s ]
+SQL: SHOW COLUMNS FROM `jn_member` [ RunTime:0.023436s ]
+SQL: SELECT * FROM `jn_member` WHERE ( `email` = 'he1779168840@126.com' ) LIMIT 1   [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002161s ]
+
+[ 2016-04-03T16:17:49+08:00 ] ::1 /jn/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2016-04-03T16:17:54+08:00 ] ::1 /jn/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `jn_member` [ RunTime:0.045652s ]
+SQL: SELECT * FROM `jn_member` WHERE ( `email` = 'he134@126.com' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: INSERT INTO `jn_member` (`email`,`password`,`addtime`,`email_code`) VALUES ('he134@126.com','4f299d17f4d24fac3d2822aac232eb95',1459671473,'88c1b3be9a314f8407ed7fbb7314c3a4') [ RunTime:0.149261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+
+[ 2016-04-03T16:17:56+08:00 ] ::1 /jn/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002457s ]
+
+[ 2016-04-03T16:17:56+08:00 ] ::1 /jn/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002676s ]
+
+[ 2016-04-03T16:17:56+08:00 ] ::1 /jn/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002939s ]
+

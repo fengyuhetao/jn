@@ -1,0 +1,68 @@
+<layout name="../../Admin/View/Index/header_footer" />
+<!-- 搜索 -->
+<div class="form-div search_form_div">
+    <form method="GET" name="search_form">
+		<p>
+			商品名称：
+	   		<input type="text" name="goods_name" size="30" value="<?php echo I('get.goods_name'); ?>" />
+		</p>
+		<p>
+			价格：
+	   		从 <input id="pricefrom" type="text" name="pricefrom" size="15" value="<?php echo I('get.pricefrom'); ?>" /> 
+		    到 <input id="priceto" type="text" name="priceto" size="15" value="<?php echo I('get.priceto'); ?>" />
+		</p>
+		<p>
+			1: 表示上架 0:下架：
+			<input type="radio" value="-1" name="is_on_sale" <?php if(I('get.is_on_sale', -1) == -1) echo 'checked="checked"'; ?> /> 全部 
+			<input type="radio" value="1" name="is_on_sale" <?php if(I('get.is_on_sale', -1) == '1') echo 'checked="checked"'; ?> /> 上架 
+			<input type="radio" value="0" name="is_on_sale" <?php if(I('get.is_on_sale', -1) == '2') echo 'checked="checked"'; ?> /> 下架 
+		</p>
+		<p>
+			1：删除 0：未删除：
+			<input type="radio" value="-1" name="is_delete" <?php if(I('get.is_delete', -1) == -1) echo 'checked="checked"'; ?> /> 全部 
+			<input type="radio" value="1" name="is_delete" <?php if(I('get.is_delete', -1) == '1') echo 'checked="checked"'; ?> /> 删除 
+			<input type="radio" value="0" name="is_delete" <?php if(I('get.is_delete', -1) == '2') echo 'checked="checked"'; ?> /> 未删除 
+		</p>
+		<p>
+			插入时间：
+	   		从 <input id="sa" type="text" name="sa" size="15" value="<?php echo I('get.sa'); ?>" /> 
+		    到 <input id="ea" type="text" name="ea" size="15" value="<?php echo I('get.ea'); ?>" />
+		</p>
+		<p><input type="submit" value=" 搜索 " class="button" /></p>
+    </form>
+</div>
+<!-- 列表 -->
+<div class="list-div" id="listDiv">
+	<table cellpadding="3" cellspacing="1">
+    	<tr>
+            <th >商品名称</th>
+            <th >商品logo</th>
+            <th >价格</th>
+            <th >是否上架</th>
+            <th >是否已删除</th>
+            <th >商品描述</th>
+			<th width="60">操作</th>
+        </tr>
+		<?php foreach ($data as $k => $v): ?>            
+			<tr class="tron">
+				<td><?php echo $v['goods_name']; ?></td>
+				<td><?php showImage($v['logo'], 100, 100); ?> </td>
+				<td><?php echo $v['price']; ?></td>
+				<td><?php echo $v['is_on_sale']; ?></td>
+				<td><?php echo $v['is_delete']; ?></td>
+				<td><?php echo $v['goods_desc']; ?></td>
+		        <td align="center">
+		        	<a href="<?php echo U('edit?id='.$v['id'].'&p='.I('get.p')); ?>" title="编辑">编辑</a> |
+	                <a href="<?php echo U('delete?id='.$v['id'].'&p='.I('get.p')); ?>" onclick="return confirm('确定要删除吗？');" title="移除">移除</a> 
+		        </td>
+	        </tr>
+        <?php endforeach; ?> 
+		<?php if(preg_match('/\d/', $page)): ?>  
+        <tr><td align="right" nowrap="true" colspan="99" height="30"><?php echo $page; ?></td></tr> 
+        <?php endif; ?> 
+	</table>
+</div>
+<script>
+$('#sa').datepicker({ dateFormat: "yy-mm-dd" }); 
+$('#ea').datepicker({ dateFormat: "yy-mm-dd" }); 
+</script>
